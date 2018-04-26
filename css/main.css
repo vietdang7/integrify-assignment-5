@@ -30,6 +30,13 @@ header {
 .search-nav-icon {
   margin-left: 10px;
 }
+.logo {
+  width: 70%;
+}
+.top-nav,
+hr {
+  margin-bottom: 30px;
+}
 hr {
   border: 0;
   height: 1px;
@@ -39,4 +46,16 @@ hr {
     rgba(75, 73, 73, 0.75),
     rgba(0, 0, 0, 0)
   );
+}
+nav,
+.logo-div {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 20px 100px;
+  color: #a4a4a4;
+}
+.active-nav {
+  color: white;
 }
