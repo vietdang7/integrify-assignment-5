@@ -9,3 +9,9 @@
 header {
   background: #171717;
 }
+.fa-facebook-f,
+.fa-pinterest-p,
+.fa-instagram,
+.fa-twitter {
+  color: white;
+}
