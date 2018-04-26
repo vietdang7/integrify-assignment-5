@@ -60,6 +60,8 @@ nav ul li {
   color: white;
 }
 .nav-featured {
+  width: 90vw;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
@@ -69,10 +71,18 @@ nav ul li {
 }
 .big-featured {
   grid-area: big;
+  background: url(../img/thumbs/featured/featured-guitarman.jpg) no-repeat
+    center;
+  background-size: cover;
+  height: 500px;
 }
 .small-featured-1 {
   grid-area: small-1;
+  background: url(../img/thumbs/featured/featured-watch.jpg) no-repeat center;
+  background-size: cover;
 }
 .small-featured-2 {
   grid-area: small-2;
+  background: url(../img/thumbs/featured/featured-beetle.jpg) no-repeat center;
+  background-size: cover;
 }
