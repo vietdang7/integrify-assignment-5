@@ -9,9 +9,18 @@
 header {
   background: #171717;
 }
+.top-nav {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
 .fa-facebook-f,
 .fa-pinterest-p,
 .fa-instagram,
 .fa-twitter {
+  color: white;
+}
+.search-nav {
   color: white;
 }
