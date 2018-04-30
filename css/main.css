@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
 }
+.flex_end {
+  display: flex;
+  align-items: flex-end;
+}
 
 /* Header */
 header {
