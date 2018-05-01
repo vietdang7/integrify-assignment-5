@@ -139,8 +139,9 @@ nav ul li {
   font-size: 2em;
 }
 /* Body Section */
-section {
+.main-body {
   background: #f2f2f2;
+  padding-bottom: 60px;
 }
 .container-body {
   width: 70vw;
@@ -183,14 +184,7 @@ img {
   text-align: center;
   padding: 40px 40px 20px;
 }
-#left-arrow,
-#right-arrow {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  background-color: white;
-  padding: 14px 12px;
-}
+
 .pagination ul {
   list-style: none;
 }
@@ -199,16 +193,46 @@ img {
   grid-row: auto;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 30px 0;
 }
-.pagination li {
+.pagination a {
   display: inline-flex;
   margin: 0 20px;
 }
-.page-selected {
+.pagination a {
+  text-decoration: none;
+  display: inherit;
+  color: black;
+}
+a.page-selected {
+  color: white;
   width: 30px;
   height: 30px;
-  color: white;
   background-color: #151515;
   padding: 5px 10px;
+}
+a:hover {
+  color: white;
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  padding: 5px 10px;
+}
+/* a:hover img#left-arrow:hover {
+  background-color: lightgrey;
+} */
+.pagi-icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  padding: 14px 12px;
+}
+.pagi-icon:hover {
+  background-color: lightgrey;
+  width: 40px;
+  height: 40px;
+  padding: 14px 12px;
 }
